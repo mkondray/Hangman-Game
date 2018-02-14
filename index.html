@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+	<div class="row">
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Hangman Game</h1>
+				<h2>Guess the NBA team name!</h2>
+		</div>
+
+		<div class="card border-primary mb-3">
+			<div class="card-header text-white bg-primary">
+				<h3 class="card-title">Word</h3>
+				<h6>Press any key to get started!</h6>
+			</div>
+			<div class="card-body">
+				<h2 id="word">_ _ _ _ _ _ _</h2>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-6">
+				<div class="card border-warning bg-warning text-white">
+				 	<div class="card-body">
+				 		Wrong Guesses: <span id="wrongGuesses"></span>
+					</div>
+				</div>
+			</div>
+				
+			<div class="col-6">
+				<div class="card border-info bg-info text-white mb-3">
+					<div class="card-body">
+						Guesses Left: <span id="guessesLeft"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row justify-content-center">
+			<div class="col-3">
+				<div class="card border-success bg-success text-white mb-1">
+					<div class="card-body">
+						Wins: <span id="winCount">0</span>
+					</div>
+				</div>
+				
+				<div class="card border-danger bg-danger text-white mb-1">
+					<div class="card-body">
+						Losses:  <span id="lossCount">0</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>
