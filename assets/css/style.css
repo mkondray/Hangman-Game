@@ -1,11 +1,17 @@
 body {
-	background-image: url("http://sciencerocks.info/wp-content/uploads/2016/09/unique-wood-floor-texture-tile-wood-tile-texture-1.jpg");
-	background-size: 100%;
+	background-image: url("../images/basketball-header.png");
 }
 
 .jumbotron {
 	color: white;
-	background-image: url("http://hoopsalem.com/wp-content/uploads/2013/09/bball-background1.jpg");
+	background-image: url("../images/wood-floor-tile.jpg");
+	background-size: 100%;
+	text-align: center;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .jumbotron h1 {
